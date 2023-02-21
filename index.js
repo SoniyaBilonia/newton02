@@ -33,6 +33,8 @@ console.log("rockstarId", rockstarld);
 
 let p1 = new Promise((resolve, reject) => {
     console.log("promise is pending")
+    
+    console.log("hello")
     setTimeout(() => {
         console.log("I am a promise and i am a rejected");
         reject(new Error("I am an error"));
